@@ -1,4 +1,4 @@
-class Solution {
+class SolutionPalindrome {
     public boolean isPalindrome(int x) {
         // Negative numbers are not palindromes
         // Also numbers ending in 0 (except 0 itself) can't be palindromes
@@ -19,7 +19,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();  //  Create an object of Solution
+        SolutionPalindrome sol = new SolutionPalindrome();  //  Create an object of Solution
 
         int num1 = 121;
         int num2 = -121;
