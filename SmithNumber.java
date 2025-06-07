@@ -26,7 +26,7 @@ class SmithNumber {
         while (num > 1) {
             if (num % i == 0) {
                 sum += sum(i);
-                num /= i;  // <<< FIXED: Reduce the number
+                num /= i;  
             } else {
                 i++;
             }
